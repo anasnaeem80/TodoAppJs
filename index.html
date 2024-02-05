@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbs5A06stp1AFsP5Yd13sdf61q/8trZ+8bIS4r9ir4XEGk68lRrYwn5+gaftc" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do App</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-light">
+                <h5 class="card-title text-center">To-Do App</h5>
+            </div>
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <input type="text" id="taskInput" class="form-control" placeholder="Add a new task"
+                        aria-label="Add a new task" aria-describedby="addTaskBtn">
+                    <button class="btn btn-primary" type="button" id="addTaskBtn">Add Task</button>
+                </div>
+                <ul id="taskList" class="list-group">
+                    <!-- Tasks will be added dynamically here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ZeDqV6jYlqFi8tS5zmXAxqBEfQD+F6LlPD9E+4eY/KFmXp9ZWRf+8QhPu3kxQbhh"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

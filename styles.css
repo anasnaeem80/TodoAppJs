@@ -1,0 +1,63 @@
+body {
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 2px solid #bdc3c7;
+  padding: 20px; /* Add padding to the card for spacing from left and right */
+}
+
+.container {
+  max-width: 600px; /* Increase max-width for a wider card */
+}
+
+.input-group {
+  padding: 10px;
+  border-bottom: none;
+}
+
+.list-group {
+  padding: 10px;
+  border-top: none;
+  margin-left: -10px; /* Move the to-do list to the left */
+}
+
+.btn-primary, .btn-danger {
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.card-title {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border-color: #2980b9;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #1f6697;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border-color: #c0392b;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+  border-color: #a5281a;
+}
